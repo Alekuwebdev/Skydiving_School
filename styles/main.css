@@ -5,13 +5,11 @@
 }
 
 html {
-    height: 100vh;
     background-image: radial-gradient(ellipse at 50% 50%, rgba(0, 0, 0, 0.5) 25%,  rgba(0, 0, 0, 0.3) 75%), 
         url("../img/Sky.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
 
     font-family: 'Dosis', sans-serif;
 }
