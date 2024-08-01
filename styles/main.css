@@ -94,3 +94,17 @@ html {
     transition-duration: 0s;
     background-size: 100% 100%;
 }
+
+@media (max-width: 1260px) {
+    .logo {
+        max-width: 8rem;
+    }
+}
+
+@media (max-width: 950px) {
+    html {
+        background-image: radial-gradient(ellipse at 50% 50%, rgba(0, 0, 0, 0.5) 25%,  rgba(0, 0, 0, 0.3) 75%), 
+        url("../img/Sky.jpg");
+    background-position: center;
+    }
+}
